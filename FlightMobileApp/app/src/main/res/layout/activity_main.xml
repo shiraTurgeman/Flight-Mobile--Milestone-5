@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/NAME"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#64DD17"
+        android:text="@string/connect"
+        android:textColorLink="#B09E27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <EditText
+        android:id="@+id/TypeUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/type_url"
+        android:inputType="textUri|textPersonName"
+
+        android:textAlignment="center"
+        android:textColor="#402962FF"
+        android:textColorHint="#423A3A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <Button
+        android:id="@+id/UrlOne"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:text="@string/localhost1"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
+        android:id="@+id/UrlTwo"
+        android:layout_width="303dp"
+        android:layout_height="56dp"
+        android:text="@string/localhost2"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <Button
+        android:id="@+id/UrlThree"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:text="@string/localhost3"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UrlTwo"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <Button
+        android:id="@+id/UrlFour"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:text="@string/localhost4"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UrlThree"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/UrlFive"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:text="@string/localhost5"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UrlThree"
+        app:layout_constraintVertical_bias="0.397" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

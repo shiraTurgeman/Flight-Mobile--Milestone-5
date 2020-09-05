@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">FlightMobileApp</string>
+
+    <string name="enter_a_number">ENTER A NUMBER</string>
+    <string name="connect">Connect</string>
+    <string name="button2">Button</string>
+    <string name="type_url">Type URL</string>
+    <string name="hey">Hey!</string>
+    <string name="type_url_here">Type URL Here</string>
+    <string name="localhost1">LocalHost1</string>
+    <string name="button">Button</string>
+
+    <string name="localhost2">localhost2</string>
+    <string name="localhost3">localhost3</string>
+    <string name="localhost4">localhost4</string>
+    <string name="localhost5">localhost5</string>
+    <string name="textview">TextView</string>
+    <string name="ret">Return</string>
+    <string name="todo">TODO</string>
+    <string name="rudder">Rudder</string>
+    <string name="throttle">thorttle</string>
+    <string name="aileron">aileron</string>
+    <string name="elevator">elevator</string>
+
+</resources>
