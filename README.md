@@ -1,3 +1,4 @@
+
 # Flight-Mobile--Milestone-5
 
 
@@ -21,9 +22,11 @@ to log in to the app, the user needs to insert local host.
 
 ### **How does it work?**
 1. Download FlightSimulator (Or any other simulator) in the next link- https://flightgear.en.uptodown.com/windows.
-NOTE! you can choose to use python server. we added a server to this project for your convenience.
 open the simulator, go to Setting, go to Additional Setting and add the next line: 
-"--telnet=socket,in,10,127.0.0.1,5403,tcp --httpd=8080"
+"--telnet=socket,in,10,127.0.0.1,5403,tcp --httpd=8080".
+
+NOTE! you can choose to use python server. we added a server to this project for your convenience.
+
 2. open the WebCore server- running the server will open a new html window with the communication information, such as the lock host port (should be 5 letters).
 3. log in to the app server using the local host from the server. 
 4. next you should see screen with the joystick and sliders (similar to milestone 3). 
